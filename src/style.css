@@ -1,0 +1,123 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  margin: 0 auto;
+  background:  radial-gradient(circle at 7.5% 24%, rgb(237, 161, 193) 0%, rgb(250, 178, 172) 25.5%, rgb(190, 228, 210) 62.3%, rgb(215, 248, 247) 93.8%);;
+  
+}
+button#submit-button{
+  border-radius: 20px;
+  border: none;
+  height: 2.5em;
+  outline: none;
+  padding: 2px;
+  background: #7c7c7c2b;
+  color:white;
+}
+button#current-button {
+  border-radius: 20px;
+  border: none;
+  height: 2.5em;
+  outline: none;
+  padding: 2px;
+  background: #7c7c7c2b;
+color: white;
+}
+.container{text-align: center;}
+.card {
+  justify-content: center;
+  margin:0 auto;
+  background: #000000d0;
+  color: black;
+  padding: 2em;
+  border-radius: 20px;
+  max-width: 500px;
+  background-color:  hsla(0, 0%, 0%, 0);
+  box-shadow: -38px -17px 68px 2px rgba(42, 7, 245, 0.2);
+}
+#date-and-time{
+  font-size: 25px;
+   font-weight: bold}
+#city {
+  font-size: 34px;
+   justify-content: center;
+  align-items: center;
+  margin:0 auto;
+}
+#w-icon {
+  font-size: 20px;
+}
+#celsius{
+   position: relative;
+  font-size: 30px;
+ top:-158px;
+ right: -240px;
+}
+#fahrenheit{
+ position: relative;
+  font-size: 30px;
+      top: -158px;
+   right: -240px;
+}
+#divider{
+  position: relative;
+  font-size: 30px;
+      top: -158px;
+    right: -240px;
+}
+#temp {
+  font-size: 4em;
+  font-weight: lighter;
+}
+#description {
+  font-size: 30px;
+}
+
+#pressure {
+  font-size: 30px;
+}
+
+#humidity {
+  font-size: 30px;
+}
+
+#wind {
+  font-size: 30px;
+}
+ #search-input {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0.5em;
+  border-radius: 20px;
+  height: 2.5em;
+  border: none;
+  outline: none;
+  background: #7c7c7c2b;
+  padding: 2px;
+  color:white;
+}
+#search {
+  display: block;
+  margin: 0 auto;
+}
+.weather .active{
+  color:black;
+cursor:default;
+text-decoration: none;
+}
+.weather .active:hover{
+  text-decoration: none;
+}
+.label {
+ font-size: 15px;
+ color: cornsilk;
+text-decoration: underline ;
+ 
+}
+.contact {
+ text-decoration: none; 
+
+ }
