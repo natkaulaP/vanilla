@@ -59,7 +59,7 @@ function fetchWeather(response) {
   humidity.innerHTML = `Humidity: ${response.data.main.humidity} %`;
   windSpeed.innerHTML = `Wind speed: ${wind} km/h`;
   date.innerHTML = formatDate(response.data.dt * 1000);
-  icon.setAttribute("src", `https://openweathermap.org/img/wn/${icons}@2x.png`);
+  icon.setAttribute("src",`https://openweathermap.org/img/wn/${icons}@2x.png`);
   icon.setAttribute("alt", response.data.weather[0].description);
 }
 
