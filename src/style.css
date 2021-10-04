@@ -51,18 +51,21 @@ color: white;
 }
 #celsius{
    position: relative;
+  
   font-size: 30px;
  top:-158px;
  right: -240px;
 }
 #fahrenheit{
  position: relative;
+
   font-size: 30px;
       top: -158px;
    right: -240px;
 }
 #divider{
   position: relative;
+
   font-size: 30px;
       top: -158px;
     right: -240px;
