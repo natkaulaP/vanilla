@@ -23,6 +23,39 @@ function fetchTime() {
 }
 fetchTime();
 
+function fetchForecast(){
+  let forecast = document.querySelector("#weather-forecast");
+let forecastHTML=`<div class="row">`
+let days = [
+  "Wed",
+  "Thus",
+  "Fri",
+  "Sat", 
+  "Sun",
+  "Mon",
+  "Tue",
+];
+days.forEach(function(day){
+  forecastHTML =
+    forecastHTML +
+    ` 
+        
+<div class="col-2">
+          <div id="forecast-date">${day}</div>
+          <img src="http://openweathermap.org/img/wn/10d@2x.png"alt=""width="42"/>
+          <div id="weather-forecast-temp">
+            <span class="weather-forecast-temp-max">18°</span>
+            <span class="weather-forecast-temp-min">11°</span>
+          </div>
+        </div> `;
+      
+});
+
+      forecastHTML = forecastHTML +`</div>`;
+      forecast.innerHTML=forecastHTML;
+}
+
+
 function fetchCity(event) {
   event.preventDefault();
   let searchInput = document.querySelector("#search-input");
@@ -101,3 +134,4 @@ fahrenheitLink.addEventListener("click", fetchFahrenheit);
 
 let celsiusLink = document.querySelector("#celsius");
 celsiusLink.addEventListener("click", fetchCelsius);
+fetchForecast()
