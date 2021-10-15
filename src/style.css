@@ -46,14 +46,16 @@ color: white;
   align-items: center;
   margin:0 auto;
 }
-#w-icon {
-  font-size: 20px;
+
+.weather-temperature #w-icon{
+ height: 84px;
+ width: 84px;
 }
-#celsius{
+.weather-temperature #celsius{
    position: relative;
   font-size: 30px;
- top:-158px;
- right: -240px;
+ top:-64px;
+ right:-64px;
 }
 
 #temp {
